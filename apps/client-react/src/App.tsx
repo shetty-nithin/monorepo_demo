@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import { Button } from "ui";
-import { UserInputType } from "common";
+// import { UserInputType } from "common";
 
 function App() {
   const [count, setCount] = useState(0)
@@ -32,10 +32,10 @@ function App() {
       </p>
       <Button/>
       <button onClick={() => {
-        let userDetails: UserInputType =  {
-          email: "",
-          password: ""  
-        }
+        // const userDetails: UserInputType =  {
+        //   email: "",
+        //   password: ""  
+        // }
       }}>Click2</button>
     </>
   )

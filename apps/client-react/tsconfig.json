@@ -19,7 +19,7 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-    "path": {
+    "paths": {
       "ui": [
         "../../packages/ui/src/index.ts"
       ]
