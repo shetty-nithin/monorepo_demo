@@ -17988,9 +17988,9 @@ var require_array_flatten = __commonJS({
   }
 });
 
-// ../../node_modules/path-to-regexp/index.js
+// ../../node_modules/express/node_modules/path-to-regexp/index.js
 var require_path_to_regexp = __commonJS({
-  "../../node_modules/path-to-regexp/index.js"(exports, module2) {
+  "../../node_modules/express/node_modules/path-to-regexp/index.js"(exports, module2) {
     module2.exports = pathtoRegexp;
     var MATCHING_GROUP_REGEXP = /\((?!\?)/g;
     function pathtoRegexp(path, keys, options) {
