@@ -36,7 +36,7 @@ function App() {
         //   email: "",
         //   password: ""  
         // }
-      }}>Click2</button>
+      }}>Click Me</button>
     </>
   )
 }
