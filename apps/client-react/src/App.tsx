@@ -38,7 +38,6 @@ function App() {
         // }
       }}>Click Me</button>
       <button>Nithin</button>
-      <button>Shetty</button>
       <Button/>
     </>
   )
