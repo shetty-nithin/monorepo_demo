@@ -30,13 +30,15 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
-      <Button/>
+      {/* <Button/> */}
       <button onClick={() => {
         // const userDetails: UserInputType =  {
         //   email: "",
         //   password: ""  
         // }
       }}>Click Me</button>
+      <button>Nithin</button>
+      <button>Shetty</button>
     </>
   )
 }
