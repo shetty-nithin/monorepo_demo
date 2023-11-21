@@ -2,7 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-// import { Button } from "ui";
+import { Button } from "ui";
 // import { UserInputType } from "common";
 
 function App() {
@@ -39,6 +39,7 @@ function App() {
       }}>Click Me</button>
       <button>Nithin</button>
       <button>Shetty</button>
+      <Button/>
     </>
   )
 }
