@@ -37,7 +37,7 @@ function App() {
         //   password: ""  
         // }
       }}>Click Me</button>
-      <button>nithins</button>
+      <button>F.R.I.E.N.D.S</button>
     </>
   )
 }
