@@ -37,8 +37,7 @@ function App() {
         //   password: ""  
         // }
       }}>Click Me</button>
-      <button>Nithin</button>
-      <button>Shetty</button>
+      <button>ns</button>
     </>
   )
 }
