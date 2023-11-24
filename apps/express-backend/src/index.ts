@@ -8,9 +8,18 @@ app.use(express.json());
 app.get("/", (req: any, res: any) => {
     let parsedUser = UserInput.safeParse(req.body);
     if(!parsedUser.success){
-        return res.send("Incorrect Input");
+        return res.send("Nithin Shetty");
     }
-    return res.send("Correct Input");
+    return res.send("Nithin Shetty: if failed: 1st route");
+});
+
+
+app.get("/", (req: any, res: any) => {
+    let parsedUser = UserInput.safeParse(req.body);
+    if(!parsedUser.success){
+        return res.send("Nithin Shetty");
+    }
+    return res.send("Nithin Shetty: if failed: 2 routes");
 });
 
 app.listen(PORT, () => {
