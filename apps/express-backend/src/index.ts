@@ -14,7 +14,7 @@ app.get("/", (req: any, res: any) => {
 });
 
 
-app.get("/", (req: any, res: any) => {
+app.get("/nithinshetty", (req: any, res: any) => {
     let parsedUser = UserInput.safeParse(req.body);
     if(!parsedUser.success){
         return res.send("Nithin Shetty");
