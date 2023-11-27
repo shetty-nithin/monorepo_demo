@@ -4,10 +4,7 @@ export default function Home() {
   return (
     <>
       <Button/>
-      <Button/>
-      <Button/>
-      <Button/>
-      <Button/>
+    Nithin next app
     </>
   )
 }
