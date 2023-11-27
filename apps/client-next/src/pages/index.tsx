@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <>
       <Button/>
-    Nithin next app
+      Next Web App
     </>
   )
 }
