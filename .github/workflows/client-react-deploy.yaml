@@ -25,4 +25,4 @@ jobs:
         chmod 600 keyfile
         mkdir -p ~/.ssh
         cp known_hosts ~/.ssh/known_hosts
-        ssh -t -i keyfile ubuntu@ec2-3-6-87-219.ap-south-1.compute.amazonaws.com "sudo bash /home/ubuntu/monorepo_demo/apps/client-react/deploy.sh"
+        ssh -t -i keyfile ubuntu@ec2-52-66-20-95.ap-south-1.compute.amazonaws.com	 "sudo bash /home/ubuntu/monorepo_demo/apps/client-react/deploy.sh"
