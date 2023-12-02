@@ -8,7 +8,7 @@ app.use(express.json());
 app.get("/", (req: any, res: any) => {
     let parsedUser = UserInput.safeParse(req.body);
     if(!parsedUser.success){
-        return res.send("simple route");
+        return res.send("simple route: testing");
     }
     return res.send("Nithin Shetty: if failed: 1st route");
 });
@@ -17,7 +17,7 @@ app.get("/", (req: any, res: any) => {
 app.get("/nithinshetty", (req: any, res: any) => {
     let parsedUser = UserInput.safeParse(req.body);
     if(!parsedUser.success){
-        return res.send("Nithin Shetty route: nnnnnnnnnnn");
+        return res.send("Nithin Shetty route: testing");
     }
     return res.send("Nithin Shetty: if failed: 2 routes");
 });
