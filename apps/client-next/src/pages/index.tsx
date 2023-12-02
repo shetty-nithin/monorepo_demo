@@ -5,6 +5,7 @@ export default function Home() {
     <>
       <Button/>
       Next Web App
+      F.R.I.E.N.D.S
     </>
   )
 }
