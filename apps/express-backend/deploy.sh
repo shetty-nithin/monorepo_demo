@@ -5,4 +5,4 @@ cd /home/ubuntu/monorepo_demo
 git pull origin main
 npm run build
 pm2 stop express
-pm2 start npm --name "express" -- "start:express"
+pm2 start npm --name "express-backend" -- "start:express"
