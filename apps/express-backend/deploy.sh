@@ -5,6 +5,4 @@ cd /home/ubuntu/monorepo_demo
 git pull origin main
 npm run build
 pm2 stop express
-echo "----------------------STOPPED-----------------------------------------------------"
-pm2 start npm --name "express" -- "start:express"
-echo "----------------------STARTED-----------------------------------------------------"
+pm2 start npm --name "express" --run "start:express"
