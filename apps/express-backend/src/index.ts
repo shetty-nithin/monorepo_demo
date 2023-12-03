@@ -8,7 +8,7 @@ app.use(express.json());
 app.get("/", (req: any, res: any) => {
     let parsedUser = UserInput.safeParse(req.body);
     if(!parsedUser.success){
-        return res.send("simple route: its working NS");
+        return res.send("simple route: its working NShetty");
     }
     return res.send("Nithin Shetty: its working ns");
 });
