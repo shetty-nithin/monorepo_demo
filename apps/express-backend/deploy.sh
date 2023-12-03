@@ -6,4 +6,5 @@ git pull origin main
 npm install
 npm run build
 pm2 stop express
+sleep 5
 pm2 start npm --name "express" -- "start:express"
