@@ -1,7 +1,7 @@
 module.exports = {
   apps: [
     {
-      name: 'react-app',
+      name: 'react',
       script: 'npm',
       args: 'run start:react',
       cwd: './',
@@ -15,7 +15,7 @@ module.exports = {
       },
     },
     {
-      name: 'next-app',
+      name: 'next',
       script: 'npm',
       args: 'run start:next',
       cwd: './',
@@ -28,7 +28,7 @@ module.exports = {
       },
     },
     {
-      name: 'express-app',
+      name: 'express',
       script: 'npm',
       args: 'run start:express',
       cwd: './',
