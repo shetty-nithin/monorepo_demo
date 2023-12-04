@@ -6,6 +6,4 @@ git pull origin main
 npm install
 npm run build
 pm2 delete express
-echo "=========================DELETED======================"
 pm2 start npm --name "express" -- "start:express"
-echo "=========================STARTED AGAIN======================"
