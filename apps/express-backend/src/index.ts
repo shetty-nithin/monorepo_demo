@@ -10,7 +10,7 @@ app.get("/", (req: any, res: any) => {
     if(!parsedUser.success){
         return res.send("simple route: working alone");
     }
-    return res.send("Nithin Shetty: its working alone");
+    return res.send("Nithin Shetty: its working alonee");
 });
 
 
