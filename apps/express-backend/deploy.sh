@@ -6,4 +6,4 @@ git pull origin main
 npm install
 npm run build
 pm2 delete express
-pm2 start npm --name "express" -- "start:express"
+pm2 start ecosystem.config.js --only express
