@@ -8,18 +8,18 @@ app.use(express.json());
 app.get("/", (req: any, res: any) => {
     let parsedUser = UserInput.safeParse(req.body);
     if(!parsedUser.success){
-        return res.send("simple route: working now again after deleting eb");
+        return res.send("simple route: working alone");
     }
-    return res.send("Nithin Shetty: its working ns");
+    return res.send("Nithin Shetty: its working alone");
 });
 
 
 app.get("/nithinshetty", (req: any, res: any) => {
     let parsedUser = UserInput.safeParse(req.body);
     if(!parsedUser.success){
-        return res.send("Nithin Shetty route: workign nithin");
+        return res.send("Nithin Shetty route: workign alone");
     }
-    return res.send("Nithin Shetty: if failed: 2 routes: working ns");
+    return res.send("Nithin Shetty: if failed: 2 routes: working alone");
 });
 
 app.listen(PORT, () => {
