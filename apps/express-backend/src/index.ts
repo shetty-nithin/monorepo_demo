@@ -8,18 +8,18 @@ app.use(express.json());
 app.get("/", (req: any, res: any) => {
     let parsedUser = UserInput.safeParse(req.body);
     if(!parsedUser.success){
-        return res.send("Testing CI/CD");
+        return res.send("Testing CI/CD2");
     }
-    return res.send("Testing CI/CD");
+    return res.send("Testing CI/CD2");
 });
 
 
 app.get("/nithinshetty", (req: any, res: any) => {
     let parsedUser = UserInput.safeParse(req.body);
     if(!parsedUser.success){
-        return res.send("Testing CI/CD with Nithin Shetty");
+        return res.send("Testing CI/CD with Nithin Shetty2");
     }
-    return res.send("Testing CI/CD with ns");
+    return res.send("Testing CI/CD with ns2");
 });
 
 app.listen(PORT, () => {
