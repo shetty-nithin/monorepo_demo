@@ -2,7 +2,9 @@
 export PATH=$PATH:/home/ubuntu/.nvm/versions/node/v21.3.0/bin
 
 cd /home/ubuntu/monorepo_demo
-sudo git pull origin main
+git pull origin main
+npm install
 npm run build
 pm2 stop react
-pm2 start npm --name "react" --run "start:react"
+pm2 delete react
+pm2 start ecosystem.config.js --only react
