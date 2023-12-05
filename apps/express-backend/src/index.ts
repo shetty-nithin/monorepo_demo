@@ -19,7 +19,7 @@ app.get("/nithinshetty", (req: any, res: any) => {
     if(!parsedUser.success){
         return res.send("Testing CI/CD with Nithin Shetty3");
     }
-    return res.send("Testing CI/CD with ns3");
+    return res.send("Testing CI/CD with nsi3");
 });
 
 app.listen(PORT, () => {
