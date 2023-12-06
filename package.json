@@ -15,7 +15,7 @@
     "tsconfig": "*",
     "turbo": "latest"
   },
-  "name": "End2EndMonoRepoDemoProject",
+  "name": "monorepo_demo",
   "packageManager": "npm@9.6.7",
   "workspaces": [
     "apps/*",
