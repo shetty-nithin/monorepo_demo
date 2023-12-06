@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <>
       <Button/>
-        testing CI/CD 6-3: next and react
+        testing CI/CD 6-4: update in next app.
       </>
   )
 }
