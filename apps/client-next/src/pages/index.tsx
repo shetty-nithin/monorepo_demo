@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <>
       <Button/>
-        Hello from next web application: running.
+        Hello from next web application: running successfully.
       </>
   )
 }
