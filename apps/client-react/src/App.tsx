@@ -37,7 +37,7 @@ function App() {
         //   password: ""  
         // }
       }}>Click Me</button>
-      <button>Testing CI/CD 6-4: Update in the react app</button>
+      <button>Testing CI/CD for react web application</button>
       pm2 start npm --name "react" --run "start:react"
     </>
   )
