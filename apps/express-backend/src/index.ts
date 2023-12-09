@@ -8,7 +8,7 @@ app.use(express.json());
 app.get("/", (req: any, res: any) => {
     let parsedUser = UserInput.safeParse(req.body);
     if(!parsedUser.success){
-        return res.send("Testing CI/CD of express web applications: dist is ignored 2");
+        return res.send("Testing CI/CD of express web applications: dist is ignored 3");
     }
     return res.send("Testing CI/CD 5 all");
 });
