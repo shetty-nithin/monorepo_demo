@@ -10,7 +10,7 @@ app.get("/", (req: any, res: any) => {
     if(!parsedUser.success){
         return res.send("I love this route");
     }
-    return res.send("Testing CI/CD 5 all");
+    return res.send("else");
 });
 
 
@@ -19,7 +19,7 @@ app.get("/nithinshetty", (req: any, res: any) => {
     if(!parsedUser.success){
         return res.send("I love that route");
     }
-    return res.send("Testing CI/CD with ns 5 all");
+    return res.send("else");
 });
 
 app.listen(PORT, () => {
