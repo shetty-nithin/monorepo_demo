@@ -6,4 +6,11 @@ git pull origin main
 npm run build
 pm2 stop express
 pm2 delete express
+
+if [ -n "$PID" ]; then
+  # If PID is not empty, kill the process
+  echo "Stopping process on port 3002 with PID: $PID"
+  kill -9 $PID
+fi
+
 pm2 start ecosystem.config.js --only express
