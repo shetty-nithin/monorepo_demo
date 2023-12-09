@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <>
       <Button/>
-        I love you next----------3
+        both next and react
       </>
   )
 }

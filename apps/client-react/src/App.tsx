@@ -37,7 +37,7 @@ function App() {
         //   password: ""  
         // }
       }}>Click Me</button>
-      <button>I love you react--------------3</button>
+      <button>Both next and react</button>
       pm2 start npm --name "react" --run "start:react"
     </>
   )
