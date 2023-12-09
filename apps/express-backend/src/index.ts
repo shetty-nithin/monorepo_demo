@@ -8,7 +8,7 @@ app.use(express.json());
 app.get("/", (req: any, res: any) => {
     let parsedUser = UserInput.safeParse(req.body);
     if(!parsedUser.success){
-        return res.send("Testing CI/CD of express web app. working fine");
+        return res.send("I love this route");
     }
     return res.send("Testing CI/CD 5 all");
 });
@@ -17,7 +17,7 @@ app.get("/", (req: any, res: any) => {
 app.get("/nithinshetty", (req: any, res: any) => {
     let parsedUser = UserInput.safeParse(req.body);
     if(!parsedUser.success){
-        return res.send("Testing CI/CD with Nithin Shetty 5 all");
+        return res.send("I love that route");
     }
     return res.send("Testing CI/CD with ns 5 all");
 });
