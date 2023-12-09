@@ -8,7 +8,7 @@ app.use(express.json());
 app.get("/", (req: any, res: any) => {
     let parsedUser = UserInput.safeParse(req.body);
     if(!parsedUser.success){
-        return res.send("--------------I love this route-----------------2");
+        return res.send("--------------I love this route-----------------3");
     }
     return res.send("else0.1");
 });
