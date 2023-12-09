@@ -5,9 +5,9 @@
     "dev": "turbo run dev",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "start:next": "cd apps/client-next && next start -p 3000",
+    "start:next": "cd apps/client-next && next start",
     "start:react": "cd apps/client-react/dist && serve -p 3001",
-    "start:express": "cd apps/express-backend && node dist/index.js -p 3002"
+    "start:express": "cd apps/express-backend && node dist/index.js"
   },
   "devDependencies": {
     "eslint": "^8.48.0",
