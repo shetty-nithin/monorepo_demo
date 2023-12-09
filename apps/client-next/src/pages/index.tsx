@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <>
       <Button/>
-        Hello from next app
+        I love you next
       </>
   )
 }
