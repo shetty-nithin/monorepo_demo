@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <>
       <Button/>
-        both next and react
+      next
       </>
   )
 }
