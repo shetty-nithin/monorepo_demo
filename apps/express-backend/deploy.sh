@@ -6,5 +6,4 @@ git pull origin main
 npm run build
 pm2 stop express
 pm2 delete express
-sleep 5
 pm2 start ecosystem.config.js --only express
